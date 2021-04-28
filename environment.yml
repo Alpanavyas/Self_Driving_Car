@@ -1,0 +1,25 @@
+name: pythonProject1
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.8.5
+    - numpy
+    - matplotlib
+    - pip
+    - jupyter
+    - opencv3
+    - pillow
+    - scikit-learn
+    - scikit-image
+    - scipy
+    - h5py
+    - eventlet
+    - flask-socketio
+    - seaborn
+    - pandas
+    - imageio
+    - pip:
+        - moviepy
+        - tensorflow==1.1
+        - keras==1.2
